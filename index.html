@@ -277,14 +277,12 @@
 
     <button class="music-btn" onclick="toggleMusic()">🎵</button>
     
-    <!-- KHWAAB SONG CONNECTED HERE -->
-    <audio id="bgMusic" loop>
-        <source src="khwaab.mp3" type="audio/mpeg">
+    <audio id="bgMusic" loop preload="auto">
+        <source src="https://files.catbox.moe/93e84r.mp3" type="audio/mpeg">
     </audio>
 
     <div class="container">
         
-        <!-- STEP 1 -->
         <div class="step active" id="step1">
             <div style="font-size: 40px; margin-bottom: 10px;">🌹</div>
             <div class="tag">FOR MY BEGUM MUSKAAN ✨</div>
@@ -293,7 +291,6 @@
             <button class="btn" onclick="goToStep(2)">READ MY HEART 🌹</button>
         </div>
 
-        <!-- STEP 2 -->
         <div class="step" id="step2">
             <div class="tag">✦ A MESSAGE FOR YOU ✦</div>
             <h1>Begum Muskaan</h1>
@@ -326,7 +323,6 @@
             <button class="btn" onclick="goToStep(3)">ONE MORE THING... ✨</button>
         </div>
 
-        <!-- STEP 3 -->
         <div class="step" id="step3">
             <div class="tag">COMPLETELY SCIENTIFIC</div>
             <h2 style="color:#880e4f; font-family:'Playfair Display', serif; margin-bottom: 4px;">The Forgiveness Meter™</h2>
@@ -348,7 +344,6 @@
             <button class="btn" id="meterNextBtn" onclick="goToStep(4)">SEE SURPRISE 🎁</button>
         </div>
 
-        <!-- STEP 4 -->
         <div class="step" id="step4">
             <div style="font-size: 45px; margin-bottom: 10px;">🌹</div>
             <h1>Muskaan, you are still my favourite</h1>
@@ -363,7 +358,6 @@
             </div>
         </div>
 
-        <!-- Navigation Dots -->
         <div class="dots">
             <div class="dot active" id="dot1"></div>
             <div class="dot" id="dot2"></div>
